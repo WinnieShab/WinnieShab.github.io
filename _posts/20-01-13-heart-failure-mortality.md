@@ -155,7 +155,7 @@ fig.suptitle("Distribution of the binary features and DEATH_EVENT", fontsize=18)
 
 
 ```
-![Distribution of the binary features]()
+![Distribution of the binary features](/Img/posts/Heartfailure/output_22_0.png)
 
 ```python
 #distribution of numerical features
