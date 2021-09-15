@@ -172,7 +172,7 @@ numbers = pd.Series(hf.columns)
 hf[numbers].hist(figsize = (8, 8))
 plt.show();
 ```
-
+![Distribution of the numerical features](/img/posts/Heartfailure/output_25_0.png)
 
 ```python
 hf[numbers].skew() 
@@ -222,7 +222,7 @@ The categorical features are Anemia, Diabetes, High blood pressure, Sex and Smok
 sns.pairplot(hf[['plt', 'ejf', 'cpk', 'scr', 'sna', 'death']], 
              hue='death', palette='husl', corner=True)
 ```
-
+![Numerical features](/img/posts/Heartfailure/output_33_1.png)
 
 ```python
 # Distribution of target variable
@@ -340,7 +340,7 @@ plt.ylabel('tpr')
 plt.title('LR ROC curve')
 plt.show()
 ```
-
+![LR ROC](/img/posts/Heartfailure/output_48_0.png)
 
 ```python
 roc_auc_score(y_test,y_pred_proba)
@@ -406,7 +406,7 @@ plt.ylabel('tpr')
 plt.title('LRcv ROC curve')
 plt.show()
 ```
-
+![LRcv ROC](/img/posts/Heartfailure/output_54_0.png)
 
 ```python
 roc_auc_score(test_y,y_pred_proba)
@@ -565,7 +565,7 @@ plt.ylabel('tpr')
 plt.title('Random forest ROC curve')
 plt.show()
 ```
-
+![RF ROC](/img/posts/Heartfailure/output_71_0.png)
 
 ```python
 roc_auc_score(test_y,y_pred_proba)
@@ -629,7 +629,7 @@ plt.ylabel('tpr')
 plt.title('Naive Bayes ROC curve')
 plt.show()
 ```
-
+![NB ROC](/img/posts/Heartfailure/output_80_0.png)
 
 ```python
 roc_auc_score(test_y,y_pred_proba)
