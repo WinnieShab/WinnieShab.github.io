@@ -312,6 +312,7 @@ pred = lr.predict(x_test)
 print("Confusion Matrix : \n\n" , confusion_matrix(pred,y_test), "\n")
 print("Classification Report : \n\n" , classification_report(pred,y_test),"\n")
 ```
+![LR Confusion Matrix](/img/posts/Heartfailure/output_83_0.png)
 
 Accuracy=80
 sens=67
@@ -498,6 +499,7 @@ from sklearn.metrics import classification_report
 
 print(classification_report(test_y,y_pred))
 ```
+![RF Confusion Matrix](/img/posts/Heartfailure/output_84_0.png)
 
 acc-93%
 sen-67%
@@ -595,7 +597,7 @@ from sklearn.metrics import confusion_matrix
 confusion_matrix(test_y,gnb_predict)
 pd.crosstab(test_y,gnb_predict,margins=True)
 ```
-
+![NB Crosstab](/img/posts/Heartfailure/output_85_0.png)
 
 ```python
 accuracy_score(test_y,gnb_predict)
