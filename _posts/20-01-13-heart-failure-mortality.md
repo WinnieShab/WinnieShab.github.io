@@ -185,7 +185,7 @@ hf[numbers].skew()
 pd.crosstab(index=hf['hbp'], columns=hf['death'], values=hf['chk'], aggfunc=np.sum, margins=True)
 pd.crosstab(index=hf['hbp'], columns=hf['death'], values=hf['chk'], aggfunc=np.sum, margins=True, normalize='columns').round(2)*100
 ```
-
+![Crosstab](/img/posts/Heartfailure/output_82_0.png)
 
 ```python
 pd.crosstab(index=hf['diab'], columns=hf['death'], values=hf['chk'], aggfunc=np.sum, margins=True)
@@ -541,6 +541,7 @@ fT_df_sorted = fT_df.sort_values('Importance', ascending = False)
 print (fT_df_sorted)
 
 ```
+![Important Features](/img/posts/Heartfailure/output_81_0.png)
 
 
 ```python
