@@ -54,278 +54,16 @@ hf
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>age</th>
-      <th>anaemia</th>
-      <th>creatinine_phosphokinase</th>
-      <th>diabetes</th>
-      <th>ejection_fraction</th>
-      <th>high_blood_pressure</th>
-      <th>platelets</th>
-      <th>serum_creatinine</th>
-      <th>serum_sodium</th>
-      <th>sex</th>
-      <th>smoking</th>
-      <th>time</th>
-      <th>DEATH_EVENT</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>75.0</td>
-      <td>0</td>
-      <td>582</td>
-      <td>0</td>
-      <td>20</td>
-      <td>1</td>
-      <td>265000.00</td>
-      <td>1.9</td>
-      <td>130</td>
-      <td>1</td>
-      <td>0</td>
-      <td>4</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>55.0</td>
-      <td>0</td>
-      <td>7861</td>
-      <td>0</td>
-      <td>38</td>
-      <td>0</td>
-      <td>263358.03</td>
-      <td>1.1</td>
-      <td>136</td>
-      <td>1</td>
-      <td>0</td>
-      <td>6</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>65.0</td>
-      <td>0</td>
-      <td>146</td>
-      <td>0</td>
-      <td>20</td>
-      <td>0</td>
-      <td>162000.00</td>
-      <td>1.3</td>
-      <td>129</td>
-      <td>1</td>
-      <td>1</td>
-      <td>7</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>50.0</td>
-      <td>1</td>
-      <td>111</td>
-      <td>0</td>
-      <td>20</td>
-      <td>0</td>
-      <td>210000.00</td>
-      <td>1.9</td>
-      <td>137</td>
-      <td>1</td>
-      <td>0</td>
-      <td>7</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>65.0</td>
-      <td>1</td>
-      <td>160</td>
-      <td>1</td>
-      <td>20</td>
-      <td>0</td>
-      <td>327000.00</td>
-      <td>2.7</td>
-      <td>116</td>
-      <td>0</td>
-      <td>0</td>
-      <td>8</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>294</th>
-      <td>62.0</td>
-      <td>0</td>
-      <td>61</td>
-      <td>1</td>
-      <td>38</td>
-      <td>1</td>
-      <td>155000.00</td>
-      <td>1.1</td>
-      <td>143</td>
-      <td>1</td>
-      <td>1</td>
-      <td>270</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>295</th>
-      <td>55.0</td>
-      <td>0</td>
-      <td>1820</td>
-      <td>0</td>
-      <td>38</td>
-      <td>0</td>
-      <td>270000.00</td>
-      <td>1.2</td>
-      <td>139</td>
-      <td>0</td>
-      <td>0</td>
-      <td>271</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>296</th>
-      <td>45.0</td>
-      <td>0</td>
-      <td>2060</td>
-      <td>1</td>
-      <td>60</td>
-      <td>0</td>
-      <td>742000.00</td>
-      <td>0.8</td>
-      <td>138</td>
-      <td>0</td>
-      <td>0</td>
-      <td>278</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>297</th>
-      <td>45.0</td>
-      <td>0</td>
-      <td>2413</td>
-      <td>0</td>
-      <td>38</td>
-      <td>0</td>
-      <td>140000.00</td>
-      <td>1.4</td>
-      <td>140</td>
-      <td>1</td>
-      <td>1</td>
-      <td>280</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>298</th>
-      <td>50.0</td>
-      <td>0</td>
-      <td>196</td>
-      <td>0</td>
-      <td>45</td>
-      <td>0</td>
-      <td>395000.00</td>
-      <td>1.6</td>
-      <td>136</td>
-      <td>1</td>
-      <td>1</td>
-      <td>285</td>
-      <td>0</td>
-    </tr>
-  </tbody>
-</table>
-<p>299 rows × 13 columns</p>
-</div>
-
-
-
-
 ```python
 
 hf.info() #this gives an overview of the dataset.There is no missing value, hence exploration can begin
 ```
-
-    <class 'pandas.core.frame.DataFrame'>
-    RangeIndex: 299 entries, 0 to 298
-    Data columns (total 13 columns):
-     #   Column                    Non-Null Count  Dtype  
-    ---  ------                    --------------  -----  
-     0   age                       299 non-null    float64
-     1   anaemia                   299 non-null    int64  
-     2   creatinine_phosphokinase  299 non-null    int64  
-     3   diabetes                  299 non-null    int64  
-     4   ejection_fraction         299 non-null    int64  
-     5   high_blood_pressure       299 non-null    int64  
-     6   platelets                 299 non-null    float64
-     7   serum_creatinine          299 non-null    float64
-     8   serum_sodium              299 non-null    int64  
-     9   sex                       299 non-null    int64  
-     10  smoking                   299 non-null    int64  
-     11  time                      299 non-null    int64  
-     12  DEATH_EVENT               299 non-null    int64  
-    dtypes: float64(3), int64(10)
-    memory usage: 30.5 KB
-
 
 
 ```python
 # Checking for null values
 hf.isnull().sum()
 ```
-
-
-
-
-    age                         0
-    anaemia                     0
-    creatinine_phosphokinase    0
-    diabetes                    0
-    ejection_fraction           0
-    high_blood_pressure         0
-    platelets                   0
-    serum_creatinine            0
-    serum_sodium                0
-    sex                         0
-    smoking                     0
-    time                        0
-    DEATH_EVENT                 0
-    dtype: int64
-
-
 
 After reading the CSV file into a data frame, the overview of the dataset is examined for missing values. It looks clean enough to begin analysis as there are no missing values.
 
@@ -342,177 +80,6 @@ There are 13 features which Age, Anemia, Creatinine phosphokinase, Diabetes, Eje
 ```python
 hf.describe()
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>age</th>
-      <th>anaemia</th>
-      <th>creatinine_phosphokinase</th>
-      <th>diabetes</th>
-      <th>ejection_fraction</th>
-      <th>high_blood_pressure</th>
-      <th>platelets</th>
-      <th>serum_creatinine</th>
-      <th>serum_sodium</th>
-      <th>sex</th>
-      <th>smoking</th>
-      <th>time</th>
-      <th>DEATH_EVENT</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.00000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.00000</td>
-      <td>299.000000</td>
-      <td>299.00000</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>60.833893</td>
-      <td>0.431438</td>
-      <td>581.839465</td>
-      <td>0.418060</td>
-      <td>38.083612</td>
-      <td>0.351171</td>
-      <td>263358.029264</td>
-      <td>1.39388</td>
-      <td>136.625418</td>
-      <td>0.648829</td>
-      <td>0.32107</td>
-      <td>130.260870</td>
-      <td>0.32107</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>11.894809</td>
-      <td>0.496107</td>
-      <td>970.287881</td>
-      <td>0.494067</td>
-      <td>11.834841</td>
-      <td>0.478136</td>
-      <td>97804.236869</td>
-      <td>1.03451</td>
-      <td>4.412477</td>
-      <td>0.478136</td>
-      <td>0.46767</td>
-      <td>77.614208</td>
-      <td>0.46767</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>40.000000</td>
-      <td>0.000000</td>
-      <td>23.000000</td>
-      <td>0.000000</td>
-      <td>14.000000</td>
-      <td>0.000000</td>
-      <td>25100.000000</td>
-      <td>0.50000</td>
-      <td>113.000000</td>
-      <td>0.000000</td>
-      <td>0.00000</td>
-      <td>4.000000</td>
-      <td>0.00000</td>
-    </tr>
-    <tr>
-      <th>25%</th>
-      <td>51.000000</td>
-      <td>0.000000</td>
-      <td>116.500000</td>
-      <td>0.000000</td>
-      <td>30.000000</td>
-      <td>0.000000</td>
-      <td>212500.000000</td>
-      <td>0.90000</td>
-      <td>134.000000</td>
-      <td>0.000000</td>
-      <td>0.00000</td>
-      <td>73.000000</td>
-      <td>0.00000</td>
-    </tr>
-    <tr>
-      <th>50%</th>
-      <td>60.000000</td>
-      <td>0.000000</td>
-      <td>250.000000</td>
-      <td>0.000000</td>
-      <td>38.000000</td>
-      <td>0.000000</td>
-      <td>262000.000000</td>
-      <td>1.10000</td>
-      <td>137.000000</td>
-      <td>1.000000</td>
-      <td>0.00000</td>
-      <td>115.000000</td>
-      <td>0.00000</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>70.000000</td>
-      <td>1.000000</td>
-      <td>582.000000</td>
-      <td>1.000000</td>
-      <td>45.000000</td>
-      <td>1.000000</td>
-      <td>303500.000000</td>
-      <td>1.40000</td>
-      <td>140.000000</td>
-      <td>1.000000</td>
-      <td>1.00000</td>
-      <td>203.000000</td>
-      <td>1.00000</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>95.000000</td>
-      <td>1.000000</td>
-      <td>7861.000000</td>
-      <td>1.000000</td>
-      <td>80.000000</td>
-      <td>1.000000</td>
-      <td>850000.000000</td>
-      <td>9.40000</td>
-      <td>148.000000</td>
-      <td>1.000000</td>
-      <td>1.00000</td>
-      <td>285.000000</td>
-      <td>1.00000</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 - The age ranged from 40 to 95 years, mean age is 60 years. 
 
@@ -533,13 +100,6 @@ hf.describe()
 ```python
 hf.shape
 ```
-
-
-
-
-    (299, 13)
-
-
 
 
 ```python
@@ -565,29 +125,6 @@ hf['hbp'] = hf['hbp'].apply(lambda x: 'No' if x==0 else 'Yes')
 hf.info()
 
 ```
-
-    <class 'pandas.core.frame.DataFrame'>
-    RangeIndex: 299 entries, 0 to 298
-    Data columns (total 14 columns):
-     #   Column  Non-Null Count  Dtype  
-    ---  ------  --------------  -----  
-     0   age     299 non-null    float64
-     1   anm     299 non-null    object 
-     2   cpk     299 non-null    int64  
-     3   diab    299 non-null    object 
-     4   ejf     299 non-null    int64  
-     5   hbp     299 non-null    object 
-     6   plt     299 non-null    float64
-     7   scr     299 non-null    float64
-     8   sna     299 non-null    int64  
-     9   sex     299 non-null    object 
-     10  smk     299 non-null    object 
-     11  time    299 non-null    int64  
-     12  death   299 non-null    int64  
-     13  chk     299 non-null    int64  
-    dtypes: float64(3), int64(6), object(5)
-    memory usage: 32.8+ KB
-
 
 Distribution of the binary features
 
@@ -618,389 +155,16 @@ fig.suptitle("Distribution of the binary features and DEATH_EVENT", fontsize=18)
 
 
 ```
-
-
-![png](output_22_0.png)
-
-
+![Distribution of the binary features]()
 
 ```python
 #distribution of numerical features
-hf
-
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>age</th>
-      <th>anm</th>
-      <th>cpk</th>
-      <th>diab</th>
-      <th>ejf</th>
-      <th>hbp</th>
-      <th>plt</th>
-      <th>scr</th>
-      <th>sna</th>
-      <th>sex</th>
-      <th>smk</th>
-      <th>time</th>
-      <th>death</th>
-      <th>chk</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>75.0</td>
-      <td>No</td>
-      <td>582</td>
-      <td>No</td>
-      <td>20</td>
-      <td>Yes</td>
-      <td>265000.00</td>
-      <td>1.9</td>
-      <td>130</td>
-      <td>Male</td>
-      <td>No</td>
-      <td>4</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>55.0</td>
-      <td>No</td>
-      <td>7861</td>
-      <td>No</td>
-      <td>38</td>
-      <td>No</td>
-      <td>263358.03</td>
-      <td>1.1</td>
-      <td>136</td>
-      <td>Male</td>
-      <td>No</td>
-      <td>6</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>65.0</td>
-      <td>No</td>
-      <td>146</td>
-      <td>No</td>
-      <td>20</td>
-      <td>No</td>
-      <td>162000.00</td>
-      <td>1.3</td>
-      <td>129</td>
-      <td>Male</td>
-      <td>Yes</td>
-      <td>7</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>50.0</td>
-      <td>Yes</td>
-      <td>111</td>
-      <td>No</td>
-      <td>20</td>
-      <td>No</td>
-      <td>210000.00</td>
-      <td>1.9</td>
-      <td>137</td>
-      <td>Male</td>
-      <td>No</td>
-      <td>7</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>65.0</td>
-      <td>Yes</td>
-      <td>160</td>
-      <td>Yes</td>
-      <td>20</td>
-      <td>No</td>
-      <td>327000.00</td>
-      <td>2.7</td>
-      <td>116</td>
-      <td>Female</td>
-      <td>No</td>
-      <td>8</td>
-      <td>1</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>294</th>
-      <td>62.0</td>
-      <td>No</td>
-      <td>61</td>
-      <td>Yes</td>
-      <td>38</td>
-      <td>Yes</td>
-      <td>155000.00</td>
-      <td>1.1</td>
-      <td>143</td>
-      <td>Male</td>
-      <td>Yes</td>
-      <td>270</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>295</th>
-      <td>55.0</td>
-      <td>No</td>
-      <td>1820</td>
-      <td>No</td>
-      <td>38</td>
-      <td>No</td>
-      <td>270000.00</td>
-      <td>1.2</td>
-      <td>139</td>
-      <td>Female</td>
-      <td>No</td>
-      <td>271</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>296</th>
-      <td>45.0</td>
-      <td>No</td>
-      <td>2060</td>
-      <td>Yes</td>
-      <td>60</td>
-      <td>No</td>
-      <td>742000.00</td>
-      <td>0.8</td>
-      <td>138</td>
-      <td>Female</td>
-      <td>No</td>
-      <td>278</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>297</th>
-      <td>45.0</td>
-      <td>No</td>
-      <td>2413</td>
-      <td>No</td>
-      <td>38</td>
-      <td>No</td>
-      <td>140000.00</td>
-      <td>1.4</td>
-      <td>140</td>
-      <td>Male</td>
-      <td>Yes</td>
-      <td>280</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>298</th>
-      <td>50.0</td>
-      <td>No</td>
-      <td>196</td>
-      <td>No</td>
-      <td>45</td>
-      <td>No</td>
-      <td>395000.00</td>
-      <td>1.6</td>
-      <td>136</td>
-      <td>Male</td>
-      <td>Yes</td>
-      <td>285</td>
-      <td>0</td>
-      <td>1</td>
-    </tr>
-  </tbody>
-</table>
-<p>299 rows × 14 columns</p>
-</div>
-
-
 
 
 ```python
 hf.describe()
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>age</th>
-      <th>cpk</th>
-      <th>ejf</th>
-      <th>plt</th>
-      <th>scr</th>
-      <th>sna</th>
-      <th>time</th>
-      <th>death</th>
-      <th>chk</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>count</th>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.00000</td>
-      <td>299.000000</td>
-      <td>299.000000</td>
-      <td>299.00000</td>
-      <td>299.0</td>
-    </tr>
-    <tr>
-      <th>mean</th>
-      <td>60.833893</td>
-      <td>581.839465</td>
-      <td>38.083612</td>
-      <td>263358.029264</td>
-      <td>1.39388</td>
-      <td>136.625418</td>
-      <td>130.260870</td>
-      <td>0.32107</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>std</th>
-      <td>11.894809</td>
-      <td>970.287881</td>
-      <td>11.834841</td>
-      <td>97804.236869</td>
-      <td>1.03451</td>
-      <td>4.412477</td>
-      <td>77.614208</td>
-      <td>0.46767</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>min</th>
-      <td>40.000000</td>
-      <td>23.000000</td>
-      <td>14.000000</td>
-      <td>25100.000000</td>
-      <td>0.50000</td>
-      <td>113.000000</td>
-      <td>4.000000</td>
-      <td>0.00000</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>25%</th>
-      <td>51.000000</td>
-      <td>116.500000</td>
-      <td>30.000000</td>
-      <td>212500.000000</td>
-      <td>0.90000</td>
-      <td>134.000000</td>
-      <td>73.000000</td>
-      <td>0.00000</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>50%</th>
-      <td>60.000000</td>
-      <td>250.000000</td>
-      <td>38.000000</td>
-      <td>262000.000000</td>
-      <td>1.10000</td>
-      <td>137.000000</td>
-      <td>115.000000</td>
-      <td>0.00000</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>75%</th>
-      <td>70.000000</td>
-      <td>582.000000</td>
-      <td>45.000000</td>
-      <td>303500.000000</td>
-      <td>1.40000</td>
-      <td>140.000000</td>
-      <td>203.000000</td>
-      <td>1.00000</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>max</th>
-      <td>95.000000</td>
-      <td>7861.000000</td>
-      <td>80.000000</td>
-      <td>850000.000000</td>
-      <td>9.40000</td>
-      <td>148.000000</td>
-      <td>285.000000</td>
-      <td>1.00000</td>
-      <td>1.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 
 ```python
@@ -1010,29 +174,9 @@ plt.show();
 ```
 
 
-![png](output_25_0.png)
-
-
-
 ```python
 hf[numbers].skew() 
 ```
-
-
-
-
-    age      0.423062
-    cpk      4.463110
-    ejf      0.555383
-    plt      1.462321
-    scr      4.455996
-    sna     -1.048136
-    time     0.127803
-    death    0.770349
-    chk      0.000000
-    dtype: float64
-
-
 
 #age, ejf, and time are normal distributed, cpk, plt, scr are skewed to the left, sna is skewed to the right
 
@@ -1043,169 +187,16 @@ pd.crosstab(index=hf['hbp'], columns=hf['death'], values=hf['chk'], aggfunc=np.s
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>death</th>
-      <th>0</th>
-      <th>1</th>
-      <th>All</th>
-    </tr>
-    <tr>
-      <th>hbp</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>No</th>
-      <td>67.0</td>
-      <td>59.0</td>
-      <td>65.0</td>
-    </tr>
-    <tr>
-      <th>Yes</th>
-      <td>33.0</td>
-      <td>41.0</td>
-      <td>35.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
 ```python
 pd.crosstab(index=hf['diab'], columns=hf['death'], values=hf['chk'], aggfunc=np.sum, margins=True)
 pd.crosstab(index=hf['diab'], columns=hf['death'], values=hf['chk'], aggfunc=np.sum, margins=True, normalize='columns').round(2)*100
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>death</th>
-      <th>0</th>
-      <th>1</th>
-      <th>All</th>
-    </tr>
-    <tr>
-      <th>diab</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>No</th>
-      <td>58.0</td>
-      <td>58.0</td>
-      <td>58.0</td>
-    </tr>
-    <tr>
-      <th>Yes</th>
-      <td>42.0</td>
-      <td>42.0</td>
-      <td>42.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
 ```python
 pd.crosstab(index=hf['sex'], columns=hf['death'], values=hf['chk'], aggfunc=np.sum, margins=True)
 pd.crosstab(index=hf['sex'], columns=hf['death'], values=hf['chk'], aggfunc=np.sum, margins=True, normalize='columns').round(2)*100
 ```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>death</th>
-      <th>0</th>
-      <th>1</th>
-      <th>All</th>
-    </tr>
-    <tr>
-      <th>sex</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Female</th>
-      <td>35.0</td>
-      <td>35.0</td>
-      <td>35.0</td>
-    </tr>
-    <tr>
-      <th>Male</th>
-      <td>65.0</td>
-      <td>65.0</td>
-      <td>65.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
 
 ### Summary Statistics of Categorical Features
 
@@ -1233,27 +224,12 @@ sns.pairplot(hf[['plt', 'ejf', 'cpk', 'scr', 'sna', 'death']],
 ```
 
 
-
-
-    <seaborn.axisgrid.PairGrid at 0x7fba52ee3ca0>
-
-
-
-
-![png](output_33_1.png)
-
-
-
 ```python
 # Distribution of target variable
 print('% of heart failure patients who died = {}'.format(hf.death.value_counts(normalize=True)[1]))
 print('% of heart failure patients who survived = {}'.format(hf.death.value_counts(normalize=True)[0]))
 
 ```
-
-    % of heart failure patients who died = 0.3210702341137124
-    % of heart failure patients who survived = 0.6789297658862876
-
 
 This is an imbalance data
 
@@ -1298,25 +274,6 @@ xscaled= StandardScaler().fit_transform(num_feat)
 xscaled
 ```
 
-
-
-
-    array([[ 1.19294523e+00,  1.68164843e-02, -1.53055953e+00,
-             1.65728387e-04,  4.90056987e-01, -1.50403612e+00],
-           [-4.91279276e-01,  7.53566018e-09, -7.07675018e-03,
-             7.51463953e+00, -2.84552352e-01, -1.41976151e-01],
-           [ 3.50832977e-01, -1.03807313e+00, -1.53055953e+00,
-            -4.49938761e-01, -9.09000174e-02, -1.73104612e+00],
-           ...,
-           [-1.33339153e+00,  4.90208200e+00,  1.85495776e+00,
-             1.52597865e+00, -5.75030855e-01,  3.12043840e-01],
-           [-1.33339153e+00, -1.26338936e+00, -7.07675018e-03,
-             1.89039811e+00,  5.92615005e-03,  7.66063830e-01],
-           [-9.12335403e-01,  1.34823057e+00,  5.85388775e-01,
-            -3.98321274e-01,  1.99578485e-01, -1.41976151e-01]])
-
-
-
 Because this dataset is an unbalanced one, I used the k- fold cross validation to deal with this imbalance. 
 
 The dataset is split into k subsets and the model is trained on the first k-1 subsets and tested on the last kth subset. This process is repeated k times, and the average of the performance measures is calculated (Brownlee, 2020) 
@@ -1356,25 +313,6 @@ print("Confusion Matrix : \n\n" , confusion_matrix(pred,y_test), "\n")
 print("Classification Report : \n\n" , classification_report(pred,y_test),"\n")
 ```
 
-    Confusion Matrix : 
-    
-     [[44 10]
-     [ 2  4]] 
-    
-    Classification Report : 
-    
-                   precision    recall  f1-score   support
-    
-               0       0.96      0.81      0.88        54
-               1       0.29      0.67      0.40         6
-    
-        accuracy                           0.80        60
-       macro avg       0.62      0.74      0.64        60
-    weighted avg       0.89      0.80      0.83        60
-     
-    
-
-
 Accuracy=80
 sens=67
 spe=96
@@ -1383,13 +321,6 @@ spe=96
 ```python
 accuracy_score(pred,y_test)
 ```
-
-
-
-
-    0.8
-
-
 
 
 ```python
@@ -1411,20 +342,9 @@ plt.show()
 ```
 
 
-![png](output_48_0.png)
-
-
-
 ```python
 roc_auc_score(y_test,y_pred_proba)
 ```
-
-
-
-
-    0.8416149068322982
-
-
 
 ### Logistics Regretion with Cross Validation
 
@@ -1468,11 +388,6 @@ print("Logistic Regression Precision :", "{:.2f}%".format(scores['test_precision
 print("Logistic Regression Recall :", "{:.2f}%".format(scores['test_recall'].mean()*100))
 ```
 
-    Logistic Regression Accuracy: 87.61%
-    Logistic Regression Precision : 71.80%
-    Logistic Regression Recall : 64.63%
-
-
 
 ```python
 # Find and plot AUC after CV
@@ -1493,20 +408,9 @@ plt.show()
 ```
 
 
-![png](output_54_0.png)
-
-
-
 ```python
 roc_auc_score(test_y,y_pred_proba)
 ```
-
-
-
-
-    0.8478260869565217
-
-
 
 ### Logistics Regression result
 
@@ -1527,10 +431,6 @@ print("Accuracy on test set: {:.3f}".format(rf.score(test_x, test_y)))
 pred = rf.predict(test_x)
 ```
 
-    Accuracy on training set: 1.000
-    Accuracy on test set: 0.931
-
-
 
 ```python
 # Let's tune the min_samples_split based on gridserachCV
@@ -1548,14 +448,6 @@ tree_cv_split= GridSearchCV(tree,param_grid_split,cv=10)
 
 tree_cv_split.fit(train_x, train_y)
 ```
-
-
-
-
-    GridSearchCV(cv=10, estimator=RandomForestClassifier(random_state=0),
-                 param_grid={'min_samples_split': array([10, 15, 20, 25, 30, 35, 40, 45])})
-
-
 
 
 ```python
@@ -1576,36 +468,14 @@ tree_cv_depth.fit(train_x, train_y)
 ```
 
 
-
-
-    GridSearchCV(cv=10, estimator=RandomForestClassifier(random_state=0),
-                 param_grid={'max_depth': array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14])})
-
-
-
-
 ```python
 tree_cv_split.best_params_
 ```
 
 
-
-
-    {'min_samples_split': 10}
-
-
-
-
 ```python
 tree_cv_depth.best_params_
 ```
-
-
-
-
-    {'max_depth': 7}
-
-
 
 
 ```python
@@ -1616,10 +486,6 @@ rf1.fit(train_x,train_y)
 print("Accuracy on training set: {:.3f}".format(rf1.score(train_x, train_y)))
 print("Accuracy on test set: {:.3f}".format(rf1.score(test_x, test_y)))
 ```
-
-    Accuracy on training set: 0.985
-    Accuracy on test set: 0.931
-
 
 
 ```python
@@ -1633,17 +499,6 @@ from sklearn.metrics import classification_report
 print(classification_report(test_y,y_pred))
 ```
 
-                  precision    recall  f1-score   support
-    
-               0       0.92      1.00      0.96        23
-               1       1.00      0.67      0.80         6
-    
-        accuracy                           0.93        29
-       macro avg       0.96      0.83      0.88        29
-    weighted avg       0.94      0.93      0.93        29
-    
-
-
 acc-93%
 sen-67%
 spe-92%
@@ -1652,13 +507,6 @@ spe-92%
 ```python
 print("Feature importances:\n{}".format(rf1.feature_importances_))
 ```
-
-    Feature importances:
-    [0.01858174 0.34313303 0.01591057 0.01530613 0.01062522 0.01036417
-     0.01615647 0.02177207 0.06276708 0.01612672 0.15920053 0.02086081
-     0.00977099 0.01982382 0.00736903 0.01841932 0.00897859 0.01270087
-     0.01000072 0.20213211]
-
 
 
 ```python
@@ -1674,9 +522,6 @@ important_features_list = sorted(important_features_dict,
 print ('Most important features: %s' %important_features_list)
 
 ```
-
-    Most important features: [1, 19, 10, 8, 7, 11, 13, 0, 15, 6, 9, 2, 3, 17, 4, 5, 18, 12, 16, 14]
-
 
 
 ```python
@@ -1697,31 +542,10 @@ print (fT_df_sorted)
 
 ```
 
-       Feature  Importance
-    1      smk   36.132351
-    10     sna   20.880736
-    8      cpk    4.876309
-    3      hbp    2.015575
-    0      sex    1.898890
-    9      scr    1.648576
-    7      ejf    1.323185
-    6      plt    1.277476
-    5      age    1.251396
-    2     diab    0.844380
-    4      anm    0.550894
-
-
 
 ```python
 accuracy_score(test_y,y_pred)
 ```
-
-
-
-
-    0.9310344827586207
-
-
 
 
 ```python
@@ -1743,20 +567,9 @@ plt.show()
 ```
 
 
-![png](output_71_0.png)
-
-
-
 ```python
 roc_auc_score(test_y,y_pred_proba)
 ```
-
-
-
-
-    0.9202898550724636
-
-
 
 ### Random forest Result
 
@@ -1776,13 +589,6 @@ gnb.score(test_x,test_y)
 ```
 
 
-
-
-    0.8275862068965517
-
-
-
-
 ```python
 from sklearn.metrics import confusion_matrix
 confusion_matrix(test_y,gnb_predict)
@@ -1790,73 +596,9 @@ pd.crosstab(test_y,gnb_predict,margins=True)
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>col_0</th>
-      <th>0</th>
-      <th>1</th>
-      <th>All</th>
-    </tr>
-    <tr>
-      <th>row_0</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>20</td>
-      <td>3</td>
-      <td>23</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>4</td>
-      <td>6</td>
-    </tr>
-    <tr>
-      <th>All</th>
-      <td>22</td>
-      <td>7</td>
-      <td>29</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
 ```python
 accuracy_score(test_y,gnb_predict)
 ```
-
-
-
-
-    0.8275862068965517
-
-
 
 
 ```python
@@ -1864,17 +606,6 @@ from sklearn.metrics import classification_report
 
 print(classification_report(test_y,gnb_predict))
 ```
-
-                  precision    recall  f1-score   support
-    
-               0       0.91      0.87      0.89        23
-               1       0.57      0.67      0.62         6
-    
-        accuracy                           0.83        29
-       macro avg       0.74      0.77      0.75        29
-    weighted avg       0.84      0.83      0.83        29
-    
-
 
 acc-83%
 sen-67%
@@ -1900,20 +631,9 @@ plt.show()
 ```
 
 
-![png](output_80_0.png)
-
-
-
 ```python
 roc_auc_score(test_y,y_pred_proba)
 ```
-
-
-
-
-    0.8985507246376812
-
-
 
 ### Naïve Bayes Result 
 
