@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Heart Failure Mortality Prediction"
-subtitle: "Predicting Heart Failure Mortality Using Machine Learning"
+subtitle: "Predicting Heart Failure Mortality Using Machine Learning in Python"
 background: '/img/posts/Heartfailure/output.jpg'
 ---
 # Predicting Heart failure mortality using machine learning
