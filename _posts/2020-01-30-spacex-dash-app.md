@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Plotly Dash Application for SpaceX"
-subtitle: "Plotly Dash Application for SpaceX landing prediction"
+subtitle: "Plotly Dash Application for SpaceX landing prediction in Python"
 background: '/img/posts/space/space.jpg'
 ---
 
