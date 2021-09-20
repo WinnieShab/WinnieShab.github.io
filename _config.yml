@@ -1,16 +1,16 @@
 title:              Winnie Shaba
 email:              oshonamewinnie@yahoo.com
-description:        My Data Science Portfolio
+description:        My Portfolio
 author:             Winnie Shaba
 baseurl:            ""
 url:                "https://winnieshab.github.io"
 
 # Social Profiles
 twitter_username:   
-github_username:   
+github_username: WinnieShab  
 facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username: winnie-shaba-md
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
