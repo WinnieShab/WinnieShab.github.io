@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Predicting Osteoporosis Risk Factors in SAS"
-subtitle: "Predicting Osteoporosis Risk Factors in US Adults using 2017-2018 NHANES Data in SAS"
+title: "Predicting Fracture Risk Factors in SAS"
+subtitle: "Predicting Osteoporosis Fracture Risk Factors in US Adults using 2017-2018 NHANES Data in SAS"
 background: '/img/posts/sas/1.jpg'
 ---
 ---
-title: "ASSOCIATION BETWEEN OSTEOPOROSIS AND RACE IN UNITED STATES ADULTS USING THE 2017-2018 NATIONAL HEALTH AND NUTRITION EXAMINATION SURVEY (NHANES) DATA"
+title: "ASSOCIATION BETWEEN OSTEOPOROSIS FRACTURES AND RACE IN UNITED STATES ADULTS USING THE 2017-2018 NATIONAL HEALTH AND NUTRITION EXAMINATION SURVEY (NHANES) DATA"
 output: github_document
 ---
 
