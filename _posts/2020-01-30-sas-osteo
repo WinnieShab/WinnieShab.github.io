@@ -21,7 +21,7 @@ These staggering cost on the health care system and the excruciating burden on t
 
 There are multiple factors that may explain the relationship between race/ethnicity and fracture risks. Race/ethnicity is a result of genetics which dictates the bone density, skeletal size, peak bone mass and body composition.  Socio economic factors are as a result of disparities in social position in the society. (William, 2012) Those disparities influence the amount of sunlight exposure (related to education, income, neighborhood, crime rate, availability of parks, bicycle trails). The socioeconomic status also influences availability of primary prevention resources, smoking habits, alcohol consumption, comorbidities and proper diets. All these factors are interrelated as shown in the figure below:
 
-![Conceptualframework for mechanisms through which race/ethnicity may affect osteoporotic fracture risks]()
+![Conceptualframework for mechanisms through which race/ethnicity may affect osteoporotic fracture risks](/img/posts/sas/2.png
 
 
 ## AIM
@@ -333,9 +333,7 @@ run;
 ## RESULTS
 
 Table 1: Characteristics of the study population, National Health and Nutrition Examination Survey, 2017–2018.
-!
-
-
+![Table 1](/img/posts/sas/table1.png)
 
 There are 52% male and 48% females with 37% being between 50 to 59 years and 28% above 69 years. 37% are whites; NH, 22% Hispanics; 23% black NH and 14% are Asians. Majority of the study population were married (61%) and attained higher education (54%). More than half of the subjects had no comorbidities. 23% had diabetes, 45% had rheumatoid arthritis, 7% had stroke and 11% had osteoporosis. 
 The calcium levels of 94% of the subjects was normal and 31% were obese.
@@ -344,7 +342,8 @@ According to the family and social history, 86% consumed alcohol, 46% smoked cig
 
 
 Table 2: Bivariate analysis of factors associated with fractures National Health and Nutrition Examination Survey, 2017–2018.
-!
+![Table 2](/img/posts/sas/table2.png)
+
 According to the bivariate analysis in Table 2; The predictors with statistically significant p- values of <0.05 includes race, calcium, Rheumatoid arthritis, stroke, alcohol intake, osteoporosis, prednisolone intake, family history, smoking history, and femoral neck T- score. Factors associated with an increased likelihood of fractures includes low calcium levels, rheumatoid arthritis, stroke, alcohol intake, prednisolone intake, family history, smoking and low bone mass. Hispanics and Blacks have a decreased likelihood of fractures.
 
 Race/ethnicity is statistically significantly associated with having osteoporotic fractures (p<0.0001), with White, non-Hispanic seniors having the highest prevalence of 20% compared to 9% among black non-Hispanic, 11% among Hispanic, and 19% among Asian non-Hispanics. Fig 2 Blacks have 59% lower odds of fractures compared to whites, Hispanics have 50% lower odds of fractures compares to white, Asians have 75% lower odds of fractures compared to whites.
@@ -363,8 +362,7 @@ We then performed multivariate analyses to adjust the POR for factors that may c
 
 
 Table 3: Stratified Analysis for the Association osteoporotic fracture and Race/Ethnicity, National Health and Nutrition Examination Survey, 2017–2018 
-
-!
+![Table 3](/img/posts/sas/table3.png)
 
 From table 3, the association between non-Hispanic black versus white race and osteoporotic fractures remains strong after adjusting for each of the variables with a significant p<.0001 for all the variables.
 For the stratified analysis for the Association fracture and race/ethnicity, persons of color which comprised of blacks non-Hispanic, and Hispanics was compared to whites non-Hispanics - the reference group. People of color have 55% lower odds of fractures compared to whites non-Hispanics.
@@ -375,7 +373,8 @@ Using the 10% confounding change rule (CrudeRR-AdjustedRR/AdjustedRR) the covari
 
 
 Table 4 Adjusted Regression Models for the Association between osteoporotic fracture and Race/Ethnicity, National Health and Nutrition Examination Survey, 2017–2018
-!
+![Table 4](/img/posts/sas/table4.png)
+
 According to table 4; the association between race and osteoporotic fractures remains significant even when adjusted for age, gender, smoking in both model 1; and age, gender, smoking, family history of osteoporosis, alcohol intake and femoral T-score in model 2. People of color have a lower odd than whites by 55% in model 1 and 49% in model 2 which is consistent with the earlier results. Smoking, alcohol intake and femoral T- score are important predictors of osteoporotic fractures in the fully adjusted model and the final model. Interaction models were not included in the models because their effects were not significant and there were also no confounders.
 
 ## DISCUSSION
