@@ -2,7 +2,7 @@
 layout: post
 title: "Predicting Osteoporosis Risk Factors in SAS"
 subtitle: "Predicting Osteoporosis Risk Factors in US Adults using 2017-2018 NHANES Data in SAS"
-background: '/img/posts/osteo/1.jpg'
+background: '/img/posts/sas/1.jpg'
 ---
 ---
 title: "ASSOCIATION BETWEEN OSTEOPOROSIS AND RACE IN UNITED STATES ADULTS USING THE 2017-2018 NATIONAL HEALTH AND NUTRITION EXAMINATION SURVEY (NHANES) DATA"
@@ -22,6 +22,7 @@ These staggering cost on the health care system and the excruciating burden on t
 There are multiple factors that may explain the relationship between race/ethnicity and fracture risks. Race/ethnicity is a result of genetics which dictates the bone density, skeletal size, peak bone mass and body composition.  Socio economic factors are as a result of disparities in social position in the society. (William, 2012) Those disparities influence the amount of sunlight exposure (related to education, income, neighborhood, crime rate, availability of parks, bicycle trails). The socioeconomic status also influences availability of primary prevention resources, smoking habits, alcohol consumption, comorbidities and proper diets. All these factors are interrelated as shown in the figure below:
 
 ![Conceptualframework for mechanisms through which race/ethnicity may affect osteoporotic fracture risks]()
+
 
 ## AIM
 
